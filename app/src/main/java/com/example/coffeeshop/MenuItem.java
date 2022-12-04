@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * MenuItem class containing all information and methods for a MenuItem object.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 public class MenuItem implements Customizable, Serializable {
 

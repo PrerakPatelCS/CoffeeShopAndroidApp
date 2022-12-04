@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 /**
  * StoreOrder class that contains all information and methods to track store orders.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  *
  */
 public class StoreOrders implements Customizable, Serializable {

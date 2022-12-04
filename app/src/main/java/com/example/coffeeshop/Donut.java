@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 /**
  * Class containing all information and methods necessary for a 
  * Donut object.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 
 public class Donut extends MenuItem implements Customizable, Serializable {
