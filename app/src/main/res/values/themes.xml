@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.CoffeeShop" parent="Theme.MaterialComponents.Light">
+        <!-- Brand Color -->
+        <item name="colorPrimary">@color/blue_grey_700</item>
+        <!-- Lighter or Darker shade of brand color -->
+        <item name="colorPrimaryVariant">@color/blue_grey_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Brand Color -->
+        <item name="colorSecondary">@color/cyan_700</item>
+        <!-- Lighter or Darker shade of brand color -->
+        <item name="colorSecondaryVariant">@color/cyan_400</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Used for sheets/cards -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Window background color of app -->
+        <item name="android:colorBackground">@color/brown_200</item>
+        <item name="colorOnBackground">@color/black</item>
+        <!-- Color for Error and Warnings -->
+        <item name="colorError">@color/red_900</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- "On" is for texts and icons -->
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="shapeAppearanceSmallComponent">@style/AppShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/AppShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/AppShapeAppearance.LargeComponent</item>
+        <item name="materialButtonStyle">@style/AppButton</item>
+        <item name="android:listViewStyle">@style/myListView</item>
+
+    </style>
+
+
+
+
+    <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="AppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="AppShapeAppearance.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="rippleColor">?attr/colorSecondaryVariant</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/grey_900</item>
+    </style>
+
+    <style name="myListView" parent="Widget.AppCompat.ListView">
+        <item name="android:divider">?attr/colorPrimaryVariant</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">?attr/colorPrimary</item>
+        <item name="android:smoothScrollbar">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="order_donuts">Order Donuts</string>
+    <string name="select_donut_quantity">Select Donut Quantity</string>
+    <string name="flavor">Flavor</string>
+    <string name="add_to_order">Add To Order</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="coffee_quantity">Coffee Quantity:</string>
+    <string name="coffee_size">Coffee Size:</string>
+    <string name="caramel">Caramel</string>
+    <string name="syrup">Syrup</string>
+    <string name="cream">Cream</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="milk">Milk</string>
+    <string name="order_coffee">Order Coffee</string>
+    <string name="current_order">Current Order</string>
+    <string name="add_to_store_orders">Add To Store Orders</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="total">Total</string>
+    <string name="tax">Tax</string>
+    <string name="current_order_title">Current Order</string>
+    <string name="store_orders_title">Store Orders</string>
+    <string name="order_donuts_title">Order Donuts</string>
+    <string name="order_coffee_title">Order Coffee</string>
+    <string name="donut_quantity_title">Donut Quantity</string>
+    <string name="orderdonutsimg">orderDonutsIMG</string>
+    <string name="coffeeheader">coffeeHeader</string>
+    <string name="storeordersheader">storeOrdersHeader</string>
+    <string name="currorderheader">currOrderHeader</string>
+    <string name="coffeeshop">Coffee Shop</string>
+    <string name="store_orders">Store Orders</string>
+    <string name="mainmenuimage">mainMenuImage</string>
+    <string name="added_to_order">Added To Order.</string>
+    <string name="remove_order">Remove Order</string>
+    <string name="order_number">Order Number</string>
+    <string name="order_removed">Order Has Been Removed.</string>
+    <string name="no_store_orders">There are Currently No Store Orders.</string>
+    <string name="order_placed">Your Order has been Placed.</string>
+    <string name="remove_confirm">Remove this Item from the order?</string>
+    <string name="remove_title">Remove Item</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="empty_order">You have nothing in Your Order.</string>
+    <string name="item_removed">Item Removed</string>
+    <string name="donut_quantity_img">donut_quantity_img</string>
+
+    <string-array name="donut_QTY_choices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="coffee_QTY_choices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="coffee_size_choices">
+        <item>SHORT</item>
+        <item>TALL</item>
+        <item>GRANDE</item>
+        <item>VENTI</item>
+    </string-array>
+</resources>
