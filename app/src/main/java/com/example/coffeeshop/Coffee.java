@@ -8,7 +8,7 @@ import com.example.coffeeshop.Enums.COFFEE_ADD_INS;
 
 /**
  * Class containing all methods and parameters necessary for a coffee object.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 
 public class Coffee extends MenuItem implements Customizable, Serializable {

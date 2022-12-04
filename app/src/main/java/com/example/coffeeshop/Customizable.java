@@ -1,7 +1,7 @@
 package com.example.coffeeshop;
 /**
  * Interface that has add and remove methods signatures
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 public interface Customizable {
     /**

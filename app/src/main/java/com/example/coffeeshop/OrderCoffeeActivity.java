@@ -15,7 +15,7 @@ import java.text.DecimalFormat;
 
 /**
  * Class containing all methods and parameters necessary for the Order Coffee Activity.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 public class OrderCoffeeActivity extends AppCompatActivity {
     private Order currentOrder;

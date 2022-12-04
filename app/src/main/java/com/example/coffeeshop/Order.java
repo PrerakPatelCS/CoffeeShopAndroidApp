@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /**
  * Order class containing methods and information about a current order.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  *
  */
 public class Order implements Customizable, Serializable {

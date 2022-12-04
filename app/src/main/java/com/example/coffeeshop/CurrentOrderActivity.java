@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 /**
  * Class containing all methods and parameters necessary the Current Order Activity.
- * @author Craig Li, Prerak Patel
+ * @author  Prerak Patel
  */
 public class CurrentOrderActivity extends AppCompatActivity {
     private Order currentOrder;
